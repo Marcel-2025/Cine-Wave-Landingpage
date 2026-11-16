@@ -1,41 +1,29 @@
-# CineWave – Premium Landingpage
+# CineWave – Landingpage
 
-Responsive, statische Landingpage für das CineWave Video Player & Movie Collection Designkonzept.
+Statische, responsive Website für **CineWave – Video Player & Filmsammlung** (Flondy Dev.), Schwester-App von Sound Wave.
+Online: https://marcel-2025.github.io/Cine-Wave-Landingpage/ · Repo: https://github.com/Marcel-2025/Cine-Wave-Landingpage
+
+## Stand: Version 2.0 (16.11.2026) – passend zur App 0.2.1
+
+- Branding: **Popcorn-Icon** als Haupt-Icon (Navbar, Hero, Favicon, Footer); Sound Wave = Musiknote, CineWave = Popcorn.
+- **Echte Screenshots** der Windows-App 0.2.1 (`assets/app/`, 31 Bilder) mit einer Demo-Bibliothek aus fiktiven Filmen – kein Mockup mehr.
+- Abschnitte: Funktionen (8 Karten), Demo-Bibliothek, Screenshots (17), Player & Skins, Geräte (Desktop/Tablet/Handy/Steam Deck), Design Studio (10 Welten, 6 Screenshots), Marke/Icons, Demo-Artwork, **Stand & Versionen** (Status-Karten, Changelog 0.1.0–0.2.1, Download-Platzhalter), Premium (Pakete wie in der App), FAQ.
+- Keine Download-Links, keine Store-Badges, keine Preise – erst nach Freigabe durch Marcel.
+- Keine externen Skripte, Fonts, Tracking oder Einbettungen.
 
 ## Start
 
-`index.html` im Browser öffnen. Für lokale Pfade, Content Security Policy und Tests besser einen lokalen Server im Verzeichnis starten:
+`index.html` im Browser öffnen oder lokal: `python -m http.server 8000` → http://localhost:8000
 
-```bash
-python -m http.server 8000
-```
+## Dateien
 
-Danach http://localhost:8000 öffnen. Für GitHub Pages/Vercel das gesamte Verzeichnis hochladen.
+- `index.html`, `css/styles.css`, `js/app.js` – Seite, Stil, Interaktion (Menü, Filmwechsel, Screenshot-Galerie, Geräte-Tabs inkl. Steam Deck, Themen, Lightbox).
+- `assets/app/` – echte App-Screenshots 0.2.1 (JPG, Desktop 1600 px, Tablet 820 px, Handy 390 px, Designwelten).
+- `assets/icons/` – 4 App-Icons (512/1024) + `favicon.png`; `assets/artwork/` – 7 fiktive Demo-Filme (Poster + Backdrop); `assets/marketing/`, `assets/screenshots/`, `assets/devices/` – älteres Designset (auf der Seite nur noch die Vorstellungsgrafik).
+- `datenschutz.html`, `impressum.html` – **noch Entwürfe mit Platzhaltern** (Betreiber, Anschrift, Hosting) – vor der nächsten Veröffentlichung ausfüllen.
 
-## Inhalt
+## Vor dem Hochladen
 
-- `index.html` – Landingpage mit Film-Slider, Original-Screenshots, Icons, Geräte-Demo, Themenswitcher, Poster-/Banner-Galerie, Premium und FAQ.
-- `css/styles.css` – Farbsystem, 3D-Design, Responsivität, reduzierte Bewegung.
-- `js/app.js` – ohne externe Abhängigkeiten: Menü, Filmwechsel, Screenshot-Carousel, Geräte- und Themenswitcher, Bild-Lightbox.
-- `assets/` – **alle 36 Bilddateien** aus dem vorherigen CineWave-Designset: 4 Icons in 1024x1024, 4 in 512x512, 9 Android-Screenshots, Desktop + Tablet, 7 Poster, 7 Backdrops, 3 Marketing-Vorschaubilder.
-- `datenschutz.html` und `impressum.html` – bearbeitbare **Entwürfe**; Angaben vor Veröffentlichung prüfen und vervollständigen.
-- `DESIGNSET_QUELLE.md` – Informationen zum zugrunde liegenden Designset.
-
-## Wichtige Hinweise
-
-- Es sind **Designkonzepte**, keine Screenshots einer fertigen, im Store veröffentlichten App.
-- Beispiel-Filmtitel (z. B. *Neon Horizon*) sind fiktiv.
-- Keine externen Skripte, Fonts, Analytics, Tracking- oder Video-Einbettungen.
-- Kein funktionierender App-Download und keine aktiven Käufe; Call-to-Actions führen daher nur zu internen Abschnitten.
-- Die verwendeten Illustrationen sind die im früheren CineWave-Paket bereitgestellten eigenen Demo-Assets.
-- App-Demo, Dateiupload, Cloud-Synchronisierung, bezahlte Funktionen und Lizenzfragen müssen bei einem tatsächlichen Produkt separat entwickelt/geprüft werden.
-
-## Deployment-Checkliste
-
-1. Vollständiges Impressum eintragen (Anbieter, ladungsfähige Anschrift, Kontakt).
-2. Datenschutz auf verwendeten Hoster, Server-Logs, Löschfristen und ggf. weitere Dienste abstimmen.
-3. Falls veröffentlicht, App-Download-Links mit tatsächlich existierenden Store-Seiten ersetzen.
-4. Screenshots an die echte implementierte App anpassen, bevor sie als Store-Nachweis genutzt werden.
-5. Produktnamen auf Markenverfügbarkeit prüfen.
-
-Stand: 16. November 2026.
+1. Impressum und Datenschutz vervollständigen (Seite ist bereits öffentlich).
+2. Download-Platzhalter erst nach Freigabe gegen echte Links tauschen (GitHub Releases / Google Play).
+3. Screenshots nach jedem größeren App-Update neu aufnehmen (Skript: `tests/` im CineWave_Windows-Projekt).

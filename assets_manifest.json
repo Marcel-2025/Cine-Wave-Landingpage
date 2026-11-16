@@ -1,7 +1,7 @@
 {
   "project": "CineWave Premium Landingpage",
   "created": "2026-11-16",
-  "images_count": 36,
+  "images_count": 68,
   "images": [
     {
       "file": "assets/artwork/aurora_nights_backdrop.jpg",
@@ -255,5 +255,41 @@
       "type": "PNG",
       "category": "screenshots"
     }
-  ]
+  ],
+  "updated": "2026-11-16",
+  "app_screenshots": [
+    "design_drivein.jpg",
+    "design_galaxy.jpg",
+    "design_kinosaal.jpg",
+    "design_noir.jpg",
+    "design_ocean.jpg",
+    "design_synthwave.jpg",
+    "phone_design.jpg",
+    "phone_detail.jpg",
+    "phone_filme.jpg",
+    "phone_home.jpg",
+    "tablet_home.jpg",
+    "win_artwork.jpg",
+    "win_design.jpg",
+    "win_detail.jpg",
+    "win_feed_handy.jpg",
+    "win_feed_horizontal.jpg",
+    "win_feed_ordner.jpg",
+    "win_filme_arc.jpg",
+    "win_filme_flow.jpg",
+    "win_filme_grid.jpg",
+    "win_filme_shelf.jpg",
+    "win_geraete.jpg",
+    "win_home.jpg",
+    "win_player.jpg",
+    "win_player_holo.jpg",
+    "win_player_kino.jpg",
+    "win_serie.jpg",
+    "win_serien.jpg",
+    "win_shop.jpg",
+    "win_statistik.jpg",
+    "win_universe.jpg"
+  ],
+  "app_version": "0.2.1",
+  "main_icon": "assets/icons/04_CineWave_Popcorn_512.png"
 }

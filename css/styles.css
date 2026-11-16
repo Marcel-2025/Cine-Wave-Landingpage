@@ -27,3 +27,11 @@
 
 @media(max-width:800px){.overview-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:520px){.overview-grid{grid-template-columns:1fr}.overview-card img{height:auto;max-height:310px}}
+
+/* 0.2.1: Stand & Versionen, Screenshots quer */
+.screen-item.screen-wide{min-width:min(78vw,520px);aspect-ratio:auto}.screen-item.screen-wide img{aspect-ratio:16/10;object-fit:cover;object-position:top}
+.status-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin-bottom:28px}.status-card{background:linear-gradient(160deg,#171a3fcc,#0d0f28e6);border:1px solid #6c62b84d;border-radius:18px;padding:20px 18px;display:flex;flex-direction:column;gap:4px;box-shadow:0 10px 34px #00000055}.status-card b{font-size:26px;background:linear-gradient(90deg,var(--highlight,#5ce1ff),var(--highlight2,#ef53c1));-webkit-background-clip:text;background-clip:text;color:transparent}.status-card span{font-weight:600}.status-card small{color:#a7a9c9;font-size:12px}
+.changelog{display:flex;flex-direction:column;gap:12px;margin-bottom:28px}.changelog ul{margin:12px 0 4px 18px;color:#c9cbe4;line-height:1.55;font-size:14px}.changelog li{margin-bottom:6px}
+.download-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}.download-card{border:1px dashed #7b73c6;border-radius:18px;padding:18px;background:#0e1030aa;display:flex;flex-direction:column;gap:4px}.download-card b{font-size:18px}.download-card em{font-style:normal;color:var(--highlight,#5ce1ff);font-size:12px;letter-spacing:.04em;text-transform:uppercase}
+.disclaimer a{color:var(--highlight,#5ce1ff)}
+.device-display.is-deck img{border-radius:14px}
